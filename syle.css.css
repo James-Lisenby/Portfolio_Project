@@ -1,6 +1,6 @@
 
 body {
-    background-color: dimgray;
+    background-color: rgb(129, 129, 129);
 }
 
 #head {
@@ -8,6 +8,7 @@ body {
     color: darkgreen;
     padding: 20px;
     text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #navbox {
@@ -15,10 +16,6 @@ body {
     text-align: right;   
 }
 
-p {
-    font-size: 30px;
-    color: darkgreen;
-}
 
 a {
     font-size: 30px;
@@ -27,13 +24,16 @@ a {
     padding-left: 20px;
 }
 
-#aboutme {
+#about-me p h2 {
     font-size: 40px;
-    box-sizing: border-box;
     border: 2px solid black;
-    width: 50%;
-    height: 40%;
-
+    margin: 20px;
+    padding: 20px;
+    color: darkgreen;
+    height:600px;
+    width:250px;
+    flex-wrap: wrap;
+    
 }
 
 
