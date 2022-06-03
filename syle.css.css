@@ -25,24 +25,46 @@ a {
 }
 /* page links */
 
-
-
 p {
     color: darkgreen;
     font-size: 20px;
+    text-align: left;
 }
 
 h2 {
     font-size: 30px;
-    text-align: center;
+    text-align: left;
+    text-decoration: underline darkgreen 2px;
+    
 }
 
 #about-me {
+    margin: 10px;
+    padding: 5px;
+    height: 80%;
+    width: 80%;
+    border: 2px dashed blue;
+}
+
+#selfie {
+    margin: 10px;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    position: absolute;
+    right: 0px;
+}
+
+
+#application {
     margin: 20px;
     padding: 20px;
     height: 500px;
     width: 250px;
-    border: 5px dashed blue;
+    border: 2px solid black;
+    position: absolute;
+    right: 0px;
 }
 
 footer {
@@ -53,3 +75,4 @@ footer {
     left: 40%;
     right: 40%;
 }
+
