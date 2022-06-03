@@ -5,5 +5,12 @@
     border: 5px solid black;
     content: normal;
     color: darkgreen;
+    display: block;
+}
+
+#navbox {
+    font-size: 20px;
+    color: gold;
+    display:inline-block;
 }
 
