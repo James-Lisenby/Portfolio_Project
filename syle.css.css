@@ -16,18 +16,12 @@ h1 {
     padding: 5px;
     height: 300px;
     Width: 300px;
-    border: 2px solid black;
     position: absolute;
     top: 0;
     right: 0;
-    
+    background-image:url(https://media-exp1.licdn.com/dms/image/C4E03AQFLGLLhhqfbkg/profile-displayphoto-shrink_200_200/0/1650461954333?e=1658361600&v=beta&t=z0B1AUGQhx93-_isQ_s8yO1U2s5wrq1NXTBleav598I);
+    background-size: cover;
 }
-
-
-
-
-
-
 
 #applications {
     display: flex;
@@ -42,8 +36,8 @@ h1 {
     display: flex;
     text-align: center;
     color: white;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     margin: 10px;
     padding: 5px;
     background-color: black;   
@@ -53,8 +47,8 @@ h1 {
     display: flex;
     text-align: center;
     color: white;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     margin: 10px;
     padding: 5px;
     background-color: black;
@@ -64,8 +58,8 @@ h1 {
     display: flex;
     text-align: center;
     color: white;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     margin: 10px;
     padding: 5px;
     background-color: black;
@@ -75,8 +69,8 @@ h1 {
     display: flex;
     text-align: center;
     color: white;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     margin: 10px;
     padding: 5px;
     background-color: black;
@@ -87,8 +81,8 @@ h1 {
     display: flex;
     text-align: center;
     color: white;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     margin: 10px;
     padding: 5px;
     background-color: black;
@@ -98,9 +92,19 @@ h1 {
     display: flex;
     text-align: center;
     color: white;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     margin: 10px;
     padding: 5px;
     background-color: black;
+}
+
+footer {
+    font-size: 20px;
+    color: white;
+    text-decoration: solid;
+    bottom: 0px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
 }
